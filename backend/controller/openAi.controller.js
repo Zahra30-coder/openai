@@ -4,7 +4,7 @@ const {configuration} =require("../constants/api.constant");
 
 console.log(configuration)
 
-const openai = new OpenAI({apiKey:''});
+// const openai = new OpenAI({apiKey:''});
 
 
 exports.generateText = async (req, res) => {
